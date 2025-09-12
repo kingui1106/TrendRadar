@@ -1,0 +1,82 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-12 15:36:45</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">Spring Boot MyBatis Docker Kubernetes AWS Azure GCP Alibaba Cloud 阿里云 AI Artificial Intelligence 人工智能 Machine Learning 机器学习 Deep Learning 深度学习 Neural Network 神经网络 NLP Natural Language Processing Computer Vision 计算机视觉 TensorFlow PyTorch Deeplearning4j Weka LLM Large Language Model 大语言模型 Foundation Model 基础模型 Generative AI 生成式AI Transformer Attention Mechanism 注意力机制 GPT Generative Pre-trained Transformer BERT Fine-tuning 微调 RLHF Reinforcement Learning from Human Feedback In-context Learning 上下文学习 Few-shot Learning 少样本学习 Prompt Engineering 提示工程 RAG Retrieval-Augmented Generation Vector Database 向量数据库 Embedding 嵌入 Tokenization 分词 OpenAI ChatGPT GPT-4 GPT-4o o1 Sam Altman Google 谷歌 DeepMind Gemini Bard PaLM LaMDA Anthropic Claude Meta LLaMA Llama2 Llama3 Microsoft 微软 Copilot Azure OpenAI 百度 文心一言 ERNIE 阿里巴巴 通义千问 Qwen 智谱AI ChatGLM 月之暗面 Kimi 讯飞星火 iFLYTEK 字节跳动 ByteDance 豆包 Doubao 腾讯 Tencent 华为 Huawei DeepSeek 深度求索 零一万物 Yi 昆仑万维 Skywork 商汤 SenseTime 旷视 Megvii MiniMax 面壁智能 澜舟科技 第四范式 出门问问 Mobvoi Code Generation 代码生成 Multimodal AI 多模态AI AI Agent 智能体 AutoGPT LangChain Text-to-Image DALL-E Midjourney Stable Diffusion Model Evaluation 模型评估 Inference Optimization 推理优化 Model Compression 模型压缩 Quantization 量化 Edge AI 边缘AI NVIDIA 英伟达 黄仁勋 AMD Intel Apple 苹果 GitHub Git Linux SQL API</td>
+                    <td class="count">15</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755399" target="_blank" class="news-link">三大美股指齐创新高，中概大反弹，阿里巴巴涨8%，甲骨文下挫，Circle涨18%</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时36分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2142927" target="_blank" class="news-link">国家发改委：加大人工智能领域金融和财政支持力度</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时36分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2143211" target="_blank" class="news-link">资本加码、赛道分化 AI陪伴机器人开启“情绪经济”新蓝海|直击2025外滩大会</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 15时36分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755415" target="_blank" class="news-link">对甲骨文“炸裂大单”的质疑：全指望OpenAI、收入都在长期、能赚钱吗、有钱建吗？</a> [6] <font color='grey'>- 15时36分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2143217" target="_blank" class="news-link">全球首例！阿尔巴尼亚任命AI机器人出任政府部长</a> [6] <font color='grey'>- 15时36分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755377" target="_blank" class="news-link">创业板暴涨超5%，AI硬件股掀涨停潮，“易中天”大涨，恒指低开高走守住26000点，创新药跌幅显著收窄</a> [7] <font color='grey'>- 15时36分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755448" target="_blank" class="news-link">阿里DeepSeek时刻！开源新架构模型：推理快10倍、成本暴降90%</a> [8] <font color='grey'>- 15时36分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2142913" target="_blank" class="news-link">OpenAI重组谈判获关键进展 现代汽车被捕工人包机返韩 | 环球市场</a> [9] <font color='grey'>- 15时36分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E8%B4%B5%E9%98%B3%E2%80%9C%E6%8C%96%E7%9C%BC%E8%99%90%E7%8C%AB%E2%80%9D%E4%BA%8B%E4%BB%B6%E7%B3%BBAI%E7%BC%96%E9%80%A0" target="_blank" class="news-link">贵阳“挖眼虐猫”事件系AI编造</a> [11] <font color='grey'>- 15时36分</font><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8maWMviInI2" target="_blank" class="news-link">马斯克剑指奥尔特曼？声称OpenAI举报人死于谋杀</a> [11] <font color='grey'>- 15时36分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2143191" target="_blank" class="news-link">“AI之王”当之无愧！英伟达“最大空头”倒戈上调评级：还能再涨19%</a> [13] <font color='grey'>- 15时36分</font><br>[抖音] <a href="https://www.douyin.com/hot/2234116" target="_blank" class="news-link">iPhone Air在华发售延期</a> [15] <font color='grey'>- 15时36分</font><br>[抖音] <a href="https://www.douyin.com/hot/2232949" target="_blank" class="news-link">6分钟看完苹果发布会的转场片段</a> [20] <font color='grey'>- 15时36分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%90%90%E6%A7%BD%E5%BC%8F%E8%A7%A3%E6%9E%90%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A" target="_blank" class="news-link">吐槽式解析苹果发布会</a> [27] <font color='grey'>- 15时36分</font><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28344930&amp;amp;topic_name=%E8%8B%B9%E6%9E%9C%E6%98%AF%E6%87%82%E5%BE%97%E7%BB%B4%E6%8A%A4%E9%9F%A9%E7%94%B7%E8%87%AA%E5%B0%8A%E5%BF%83%E7%9A%84" target="_blank" class="news-link">苹果是懂得维护韩男自尊心的</a> [28] <font color='grey'>- 15时36分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8maWMviInI2" target="_blank" class="news-link">马斯克剑指奥尔特曼？声称OpenAI举报人死于谋杀</a> [11]</li></ul></div>
+        </body>
+        </html>
+        
