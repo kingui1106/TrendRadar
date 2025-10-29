@@ -1,0 +1,82 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-10-29 11:02:07</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">Spring Boot MyBatis Docker Kubernetes AWS Azure GCP Alibaba Cloud 阿里云 AI Artificial Intelligence 人工智能 Machine Learning 机器学习 Deep Learning 深度学习 Neural Network 神经网络 NLP Natural Language Processing Computer Vision 计算机视觉 TensorFlow PyTorch Deeplearning4j Weka LLM Large Language Model 大语言模型 Foundation Model 基础模型 Generative AI 生成式AI Transformer Attention Mechanism 注意力机制 GPT Generative Pre-trained Transformer BERT Fine-tuning 微调 RLHF Reinforcement Learning from Human Feedback In-context Learning 上下文学习 Few-shot Learning 少样本学习 Prompt Engineering 提示工程 RAG Retrieval-Augmented Generation Vector Database 向量数据库 Embedding 嵌入 Tokenization 分词 OpenAI ChatGPT GPT-4 GPT-4o o1 Sam Altman Google 谷歌 DeepMind Gemini Bard PaLM LaMDA Anthropic Claude Meta LLaMA Llama2 Llama3 Microsoft 微软 Copilot Azure OpenAI 百度 文心一言 ERNIE 阿里巴巴 通义千问 Qwen 智谱AI ChatGLM 月之暗面 Kimi 讯飞星火 iFLYTEK 字节跳动 ByteDance 豆包 Doubao 腾讯 Tencent 华为 Huawei DeepSeek 深度求索 零一万物 Yi 昆仑万维 Skywork 商汤 SenseTime 旷视 Megvii MiniMax 面壁智能 澜舟科技 第四范式 出门问问 Mobvoi Code Generation 代码生成 Multimodal AI 多模态AI AI Agent 智能体 AutoGPT LangChain Text-to-Image DALL-E Midjourney Stable Diffusion Model Evaluation 模型评估 Inference Optimization 推理优化 Model Compression 模型压缩 Quantization 量化 Edge AI 边缘AI NVIDIA 英伟达 黄仁勋 AMD Intel Apple 苹果 GitHub Git Linux SQL API</td>
+                    <td class="count">14</td>
+                    <td class="percentage">5.49%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758062" target="_blank" class="news-link">“十五五”规划建议全文：采取超常规措施，全链条推动重点领域关键核心技术攻关取得决定性突破、全面实施“人工智能+”行动、大力提振消费</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时02分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2184114" target="_blank" class="news-link">【早报】“十五五”时期，将重点发展这些新产业；大涨近5%，英伟达总市值逼近5万亿美元</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时02分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758111" target="_blank" class="news-link">一文看清英伟达GTC黄仁勋演讲要点：2000万块Blackwell销售预期，Rubin首秀，推出NVQLink，6G等重磅合作</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时02分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2184071" target="_blank" class="news-link">黄仁勋勾勒AI宏伟蓝图：6G、量子计算、机器人、自动驾驶全都有份</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时02分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758056" target="_blank" class="news-link">科技巨头力撑美三大指数再创新高，但多数股票下跌，英伟达破新高，黄金三连跌</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时02分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2184098" target="_blank" class="news-link">美股收盘：三大指数再刷历史新高 英伟达大会发威涨近5%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时02分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3758074" target="_blank" class="news-link">AI存在调整风险！木头姐警告：随着明年利率上升，市场将“不寒而栗”</a> [6] <font color='grey'>- 11时02分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2183967" target="_blank" class="news-link">OpenAI重组落地！微软持股27% 并续签AI合作至2032年</a> [7] <font color='grey'>- 11时02分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758104" target="_blank" class="news-link">OpenAI达成重磅协议向营利组织转型，微软持股27%，AI模型授权延至2032年，Azure获2500亿订单</a> [9] <font color='grey'>- 11时02分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2184178" target="_blank" class="news-link">黄仁勋坚称AI热潮并未泡沫，携全新合作伙伴进军各大前沿领域！</a> [9] <font color='grey'>- 11时02分</font><br>[知乎] <a href="https://www.zhihu.com/question/1965350018576790385" target="_blank" class="news-link">字节跳动将在海外建立游戏平台 GameTop，它能成功挑战 Steam 吗？</a> [9] <font color='grey'>- 11时02分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2184173" target="_blank" class="news-link">人形机器人概念持续火热！“木头姐”力挺：AI领域最大机遇之一</a> [12] <font color='grey'>- 11时02分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE10%E4%BA%BF%E7%BE%8E%E5%85%83%E5%85%A5%E8%82%A1%E8%AF%BA%E5%9F%BA%E4%BA%9A" target="_blank" class="news-link">英伟达10亿美元入股诺基亚</a> [16] <font color='grey'>- 11时02分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E8%82%A1%E6%8C%87%E7%BB%AD%E5%88%9B%E6%96%B0%E9%AB%98+%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%B6%A8%E8%BF%915%25" target="_blank" class="news-link">美股三大股指续创新高 英伟达涨近5%</a> [24] <font color='grey'>- 11时02分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE10%E4%BA%BF%E7%BE%8E%E5%85%83%E5%85%A5%E8%82%A1%E8%AF%BA%E5%9F%BA%E4%BA%9A" target="_blank" class="news-link">英伟达10亿美元入股诺基亚</a> [16]</li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3758104" target="_blank" class="news-link">OpenAI达成重磅协议向营利组织转型，微软持股27%，AI模型授权延至2032年，Azure获2500亿订单</a> [9]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2184173" target="_blank" class="news-link">人形机器人概念持续火热！“木头姐”力挺：AI领域最大机遇之一</a> [12]</li></ul></div>
+        </body>
+        </html>
+        
